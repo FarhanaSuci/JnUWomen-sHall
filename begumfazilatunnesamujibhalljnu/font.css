@@ -1,0 +1,40 @@
+@font-face {
+    font-family: NrtBold;
+    src: url(LiAdorNoirritBold.ttf);
+  }
+  @font-face {
+    font-family: NrtLight;
+    src: url(LiAdorNoirritLight.ttf);
+  }
+  @font-face {
+    font-family: NrtExtraLight;
+    src: url(LiAdorNoirritExtraLight.ttf);
+  }
+  @font-face {
+    font-family: NrtRegular;
+    src: url(LiAdorNoirritRegular.ttf);
+  }
+  @font-face {
+    font-family: NrtSemiBold;
+    src: url(LiAdorNoirritSemiBold.ttf);
+  }
+  @font-face {
+    font-family: HJUB;
+    src: url(LiHasanJolchobiUnicodeBold.ttf);
+  }
+  @font-face {
+    font-family: HJU;
+    src: url(LiHasanJolchobiUnicode.ttf);
+  } 
+   @font-face {
+    font-family: SKBU;
+    src: url(LiSKBishalUnicode.ttf);
+  } 
+   @font-face {
+    font-family: LLEUR;
+    src: url(LiLiakotEkotaUnicode-Regular.ttf);
+  }
+  @font-face {
+    font-family: ZRU;
+    src: url(LiZahirRayhanUnicode-Regular.ttf);
+  } 

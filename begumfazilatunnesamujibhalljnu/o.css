@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+* {
+	box-sizing: border-box;
+	
+	
+	font-family: 'poppins', a;
+    /* padding-left: 10px;
+    padding-right: 10px; margin: 0;*/
+    margin: 0;
+    padding-left:0;
+    padding-right:0;
+    
+}
+h1 {
+  color: #20B2AA;
+}
+
+body {
+	/*background:none;*/
+     /* background-color: whitesmoke ;
+    background-image: url(hall4.jpg); */
+    display: flex;
+    background:linear-gradient(rgba(0,0,0,0.5),#009688) ,url('hall4.jpg') no-repeat;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+    flex-direction: column;
+    
+    
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+        
+    
+    
+}
+
+.screen {		
+	background: linear-gradient(0deg, #20B2AA, #20B2AA);		
+	position: relative;	
+	height: 500px;
+	width: 350px;	
+	box-shadow: 0px 0px 24px #6754;
+    
+}
+
+.screen__content {
+	z-index: 1;
+	position: relative;	
+	height: 100%;
+}
+
+.screen__background {		
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+	-webkit-clip-path: inset(0 0 0 0);
+	clip-path: inset(0 0 0 0);	
+}
+
+.screen__background__shape {
+	transform: rotate(45deg);
+	position: absolute;
+}
+
+.screen__background__shape1 {
+	height: 520px;
+	width: 520px;
+	background: #fff;	
+	top: -50px;
+	right: 75px;	
+	border-radius: 0 72px 0 0;
+}
+
+.screen__background__shape2 {
+	height: 220px;
+	width: 220px;
+	background: #20B2AA;	
+	top: -172px;
+	right: 0;	
+	border-radius: 32px;
+}
+
+.screen__background__shape3 {
+	height: 540px;
+	width: 190px;
+	background: linear-gradient(270deg, #20B2AA, #20B2AA);
+	top: -24px;
+	right: 0;	
+	border-radius: 32px;
+}
+
+.screen__background__shape4 {
+	height: 400px;
+	width: 200px;
+	background: #20B2AA;	
+	top: 420px;
+	right: 50px;	
+	border-radius: 60px;
+}
+
+.login {
+	width: 320px;
+	padding: 30px;
+	padding-top: 156px;
+}
+
+.login__field {
+	padding: 20px 0px;	
+	position: relative;	
+    top: 50%;
+    left: 5px;
+    /* transform: translate(-50%);*/
+    font-size: 1em;
+}
+
+.login__icon {
+	position: absolute;
+	top: 30px;
+	color: #20B2AA;
+}
+
+.login__input {
+	border: none;
+    outline: none;
+	border-bottom: 2px solid #20B2AA;
+	background: transparent;
+	padding: 10px;
+	padding-left: 24px;
+	font-weight: 200;
+	width: 75%;
+    font-size: 10em;
+    height: 45px;
+	transition: .2s;
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+	outline: none;
+	border-bottom-color: #20B2AA;
+}
+input[type=button] {
+  padding:5px 15px; 
+  background:#d8e8ea; 
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+}
+.login__submit {
+	background: #fff;
+	font-size: 1em;
+	margin-top: 30px;
+	padding: 16px 20px;
+	border-radius: 26px;
+	border: 1px solid #20B2AA;
+	text-transform: uppercase;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	color: #95c0c7;
+	box-shadow: 0px 2px 2px #20B2AA;
+	cursor: pointer;
+	transition: .2s;
+}
+
+.login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+	border-color: #20B2AA;
+	outline: none;
+}
+
+.button__icon {
+	font-size: 24px;
+	margin-left: auto;
+	color: #20B2AA;
+}
+.button__icon:hover {
+  background-color:  #20B2AA;
+  color: #f4f4f4;
+}
+
+.button__icon:active {
+  box-shadow: inset -2px -2px 3px #20B2AA,
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.social-login {	
+	position: absolute;
+	height: 140px;
+	width: 160px;
+	text-align: center;
+	bottom: 0px;
+	right: 0px;
+	color: #fff;
+}
+
+.social-icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.social-login__icon {
+	padding: 20px 10px;
+	color: #fff;
+	text-decoration: none;	
+	text-shadow: 0px 0px 8px #20B2AA;
+}
+
+.social-login__icon:hover {
+	transform: scale(1.5);	
+}
+section#copyright {
+    background-color: #111111;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+section#copyright {
+    padding: 25px 25px;
+}
+section#copyright {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+ section {
+    display: block;
+}

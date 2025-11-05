@@ -1,0 +1,189 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+
+    /* background-color: whitesmoke ;
+     background-image: url(hall4.jpg); */
+     display: flex;
+     background:linear-gradient(rgba(0,0,0,0.5),#009688) ,url('graduate.jpg') no-repeat;
+ 
+     justify-content: center;
+ 
+     align-items: center;
+ 
+     height: 100vh;
+ 
+     flex-direction: column;
+ 
+ }
+ 
+ *{
+ 
+     font-family: Arial, Helvetica, sans-serif;
+ 
+     box-sizing: padding-box;
+ 
+ }
+ 
+ form {
+ 
+     width: 380px;
+     height: 500px;
+ 
+     border: 3px solid rgb(17, 70, 69);
+ 
+     padding: 20px;
+ 
+     background-color: rgb(10, 78, 75);
+ 
+     border-radius: 20px;
+ 
+ }
+ 
+ h2 {
+ 
+     text-align: center;
+ 
+     margin-bottom: 40px;
+     color:rgb(232, 241, 241);
+     padding-bottom: 25px;
+     font-weight: bold;
+     
+ 
+ }
+ 
+ 
+ input {
+ 
+     border: none;
+     outline: none;
+         border-bottom: 2px solid #276b69;
+         background: transparent;
+         padding: 10px;
+         width: 75%;
+     font-size: 16px;
+     height: 20px;
+         transition: .2s;
+     text-align: center;
+ 
+     color:#dee9e9;
+        display: block;
+ 
+     /*background-color: #d8f4f1;
+       border-radius: 5px;*/
+    
+     margin: 10px auto;
+ 
+   }
+   ::placeholder{
+     color: #e2eceb;
+     font-size: 16px;
+     font-family: sans-serif;
+   }
+    
+ p{
+     font-size: 20px;
+     font-family: serif;
+     
+     border: none;
+     outline: none;
+         /*border-top: 2.5px solid #edf3f2;*/
+         background: transparent;
+         padding-top: 20px;
+     padding-bottom: 0px;
+     padding-left: 0px;
+     padding-right: 0px;
+         width: 100%;
+         transition: .2s;
+         font-weight: bold;
+     text-align: right;
+ 
+     color:#e0e9e9;
+        display: block;
+ 
+     /*background-color: #d8f4f1;
+       border-radius: 5px;*/
+    
+     margin: 1px auto;
+     
+ 
+ }
+ 
+ 
+ button {
+ 
+     display: block;
+     background: rgb(237, 254, 255);
+     width: 50%;
+ 
+     color:rgb(9, 94, 97);
+ 
+     padding: 10px;
+ 
+     margin: 20px auto;
+     font-size: 20px;
+     border-radius: 24px;
+ 
+     border: none;
+ 
+ }
+ 
+ button:hover{
+ 
+     opacity: .10;
+ 
+ }
+ 
+ .error {
+ 
+    background: #8dd5e8;
+ 
+    color: #06454d;
+ 
+    padding: 10px;
+ 
+    width: 80%;
+ 
+    border-radius: 5px;
+ 
+    margin: 10px auto;
+ 
+ }
+ 
+ h1 {
+ 
+     text-align: center;
+ 
+     color: rgb(10, 119, 136);
+ 
+ }
+ 
+ a {
+ 
+ 
+     margin-top: .5rem;
+     display: block;
+     color: #f1f1f1;
+     position:center;
+ 
+ }
+ a:link {
+     color: rgb(249, 249, 246);
+     background-color: transparent;
+     text-decoration: none;
+     position: center;
+   }
+   a:visited {
+     color: rgb(244, 245, 253);
+     background-color: transparent;
+     text-decoration: none;
+   }
+   
+   a:hover {
+     color: rgb(18, 18, 8);
+     background-color: transparent;
+     text-decoration: none;
+     opacity: .7;
+   }
+ 
+
